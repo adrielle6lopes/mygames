@@ -46,6 +46,9 @@ Connection conn = null;
                         //instância a janela principal
                         MainFrame mainframe = new MainFrame();
                         
+                        //obtem  nome do usuário e mostra no mainframe
+        MainFrame.lblUser.setText(res.getString("u_name"));
+                        
                         //exibe o mainframe
                         mainframe.setVisible(true);
                         
